@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix page</title>
+    <style>
+        body {
+               background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url('netflix.jpg');
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: 100% 100%;
+              
+             }
+
+        h1{
+            align-items: center;
+            text-align: center;
+            color: red;
+        }
+    .container{
+        background-color: black;
+    }
+
+    .outer{
+        align-items: center;
+        text-align: center;
+        margin: 12%;
+        
+    }
+
+    .sign-box{
+        color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .beau{
+        font-size:large;
+        font-weight: bolder;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #mail{
+        width: 250px;
+        height: 25px;
+        background-color: white;
+        border-radius: 6px;
+    }
+
+    #password{
+        width: 250px;
+        height: 25px;
+        background-color: white;
+        border-radius: 6px;
+    }
+
+    .button{
+        width:120px;
+        height: 25px;
+        border-radius: 6px;
+            
+    }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>NETFLIX</h1>
+        </div>
+        
+
+    
+
+    </div>
+
+    <div class="outer">
+    <div class="sign-box">
+        <label for="user-ID" class="beau">USER ID</label>
+        <input type="email" name="Email-ID" id="mail"><br>
+
+        <label for="password" class="beau">PASSWORD
+        </label>
+        <input type="password" name="password" id="password"><br>
+
+        <button class="button">Sign In</button>
+    </div>
+    </div>
+
+    
+</body>
+</html>
